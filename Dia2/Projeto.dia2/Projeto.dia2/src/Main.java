@@ -1,13 +1,30 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
-void main() {
-    //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-    // to see how IntelliJ IDEA suggests fixing it.
-    IO.println(String.format("Hello and welcome!"));
+import java.util.Arrays;
 
-    for (int i = 1; i <= 5; i++) {
-        //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-        // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-        IO.println("i = " + i);
-    }
+void main() {
+
+// int array
+//    int[] valores = {10, 20, 15, 30, 40};
+//    Arrays.sort(valores);
+//    System.out.println(Arrays.toString(valores));
+//    System.out.println(valores.length);
+
+//string array
+//    String[] cars = {"BMW", "Tesla", "Jeep", "Fiat"};
+//    cars[2] = "Ferrari";
+//    System.out.println(Arrays.toString(cars));
+//    System.out.println(cars[2]);
+
+//Array multidimensional
+//    String[][] cars = {{"BMW", "Tesla"}, { "Jeep", "Fiat"}};
+//    System.out.println(Arrays.deepToString(cars));
+
+//Constante
+//    final double taxaJuros = 11.92;
+//    System.out.println(taxaJuros);
+
+//Operadores
+//    int a = 4;
+//    a++; //adiciona 1 no valor
+//    a--; //subtrai 1 do valor
+//    System.out.println(a);
 }
